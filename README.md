@@ -32,8 +32,6 @@ py -m PyInstaller --clean --noconfirm --onefile --windowed --name SnackTetris ma
 
 결과 파일: `dist\SnackTetris.exe`
 
-EXE 옆에 `assets` 폴더도 함께 배포해야 게임 오버 이미지가 표시됩니다. 이미지가 없으면 자리 안내 표시가 나옵니다.
-
 
 ## 구성
 - `main.py`: UI와 게임 로직
